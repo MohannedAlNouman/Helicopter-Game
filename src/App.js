@@ -1,10 +1,9 @@
 import React from "react";
 
+import Canvas from "./Canvas.js";
+
 const App = () => {
-  return <div>Hello</div>;
+  return <div><Canvas/></div>
 };
 
 export default App;
-
-
-//https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript
