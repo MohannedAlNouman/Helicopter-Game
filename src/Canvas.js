@@ -49,7 +49,7 @@ const Canvas = () => {
 
   const handleKeyDown = e => {
     // console.debug("Key event", e);
-
+    e.preventDefault();
     if (e.key === "ArrowUp") {
       coordinates.direction = "up";
     } else if (e.key === "ArrowDown") {
